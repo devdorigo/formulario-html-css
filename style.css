@@ -1,6 +1,49 @@
-.form{
+body{
+background-color:gray ;
+}
+.cabecalhoPrincipal{
+    background-image: linear-gradient(white ,grey);
+    box-shadow: 0px 11px 12px 1px rgb(0 0 0 / 60%);
+}
+
+.cabecalhoPrincipal .container{
     display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    font-size: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.cabecalhoLogo{
+    width: 20%
+}
+
+.logo{
+width: 50%;
+}
+
+.cabecalhoNome{
+    position: absolute;
+    align-items: center;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 2em;
+    padding: 0 2em 0 5em;
+}
+
+.navCabecalho .navItemsCabecalho{
+    padding: 0 0.5em;
+    font-size: 1.5em;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: solid;
+    
+}
+
+.navCabecalho .navItemsCabecalho:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.navItemsCabecalho:last-child{
+    margin-right: 1em;
+
 }
